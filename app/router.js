@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('nasa');
+  this.route('healthcare');
+  this.route('open_source');
 });
 
 export default Router;
