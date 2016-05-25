@@ -1,3 +1,16 @@
-<h2>{{tweet.text}}</h2>
-<p>User: {{tweet.user}}</p>
-<p>Topic: {{tweet.topic}}</p>
+<div class="row">
+	<div class="col-md-2">
+		<p>{{tweet.user}}:</p>
+	</div>
+	<div class="col-md-9">
+		<b>{{tweet.text}}</b>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="text-right">
+			<b>Topic:</b>
+			{{tweet.topic}}
+		</div>
+	</div>
+</div>
