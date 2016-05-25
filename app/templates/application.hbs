@@ -13,9 +13,9 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-    	<li>{{#link-to "nasa"}} Nasa {{/link-to}}</li>
-      <li>{{#link-to "healthcare"}} Healthcare {{/link-to}}</li>
-      <li>{{#link-to "open_source"}} Open Source {{/link-to}}</li>
+    	{{#link-to 'nasa' tagName="li" href=false}}{{#link-to "nasa"}} Nasa {{/link-to}}{{/link-to}}
+      {{#link-to 'healthcare' tagName="li" href=false}}{{#link-to "healthcare"}} Healthcare {{/link-to}}{{/link-to}}
+      {{#link-to 'open_source' tagName="li" href=false}}{{#link-to "open_source"}} Open Source {{/link-to}}{{/link-to}}
     </ul>
   </div>
 	</div>
