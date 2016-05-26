@@ -15,3 +15,6 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+.vagrant
+
+.vagrant/machines/default/virtualbox/private_key
